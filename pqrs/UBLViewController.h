@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REMenu.h"
 
 @interface UBLViewController : UIViewController
 
+@property (nonatomic, strong) REMenu *menu;
+-(void)shouldPresentMenuView:(id)sender;
 @end
